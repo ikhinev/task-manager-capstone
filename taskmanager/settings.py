@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-d#of_dmdkw5!32
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # When deploying to PythonAnywhere, add your domain here:
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '<your-username>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ikhine.pythonanywhere.com']
 
 # ------------------------------------------------------------
 # APPLICATIONS
